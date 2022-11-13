@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+button{
+    font-size: 2.5rem;
+    width: 2.5rem;
+    border: 2px solid black;
+    /* aspect-ratio: 1 / 1; */
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover, button:focus{
+    background-color: rgba(45, 172, 231, 0.26);
+}
