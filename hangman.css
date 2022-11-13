@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#vertical-line{
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    background-color: black;
+}
+
+#bottom-stand{
+    top: 200px;
+    right: -50px;
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background-color: black;
+}
+
+#top-support{
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background-color: black;
+}
+
+#face-hanger{
+    width: 5px;
+    height: 25px;
+    position: absolute;
+    background-color: black;
+    left: 100px;
+}
+
+#face{
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    left: 77.5px;
+    top: 25px;
+}
+
+#body{
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 50px;
+    left: 100px;
+    top: 75px;
+}
+
+#left-arm{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    left: 52.5px;
+    top: 85px;
+    transform-origin: right;
+    transform: rotate(30deg);
+}
+
+#right-arm{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    left: 102.5px;
+    top: 85px;
+    transform-origin: left;
+    transform: rotate(-30deg);
+}
+
+#left-leg{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    top: 120px;
+    left: 52.5px;
+    transform-origin: right;
+    transform: rotate(-45deg);
+}
+
+#right-leg{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    top: 120px;
+    left: 102.5px;
+    transform-origin: left;
+    transform: rotate(45deg);
+}
